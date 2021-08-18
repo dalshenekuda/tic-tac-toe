@@ -1,0 +1,123 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  outline: none;
+  color: #272c40;
+  
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 23px;
+  color: #444444;
+}
+
+.wrapper {
+  margin: 35px auto 50px auto;
+  min-height: 90vh;
+  width: 60%;
+  background: rgba(74, 70, 203, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper1 {
+  margin: 30px auto 30px auto;
+  min-height: 80vh;
+  width: 60%;
+  /* min-width: 720px; */
+  background: rgba(53, 49, 156, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.join-block {
+  padding: 0 0;
+  width: 300px;
+}
+
+.join-block input {
+  font-size: 24px;
+  width: 100%;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #aaa5a5;
+
+  padding-bottom: 5px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.join-block button {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+
+.board {
+  width: 360px;
+  height: 360px;
+  background: rgba(74, 70, 203, 0.54);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.square {
+  width: 120px;
+  height: 120px;
+
+  background: #fff;
+  border: 1px solid #aaa5a5;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:hover {
+  background: #dcdcdc;
+}
+
+.square:focus {
+  background: #dcdcdc;
+  border: 1px solid #2d2c2c;
+  border-radius: 10px;
+}
+
+
+.start__btn {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  background: #787ea0;
+  border: 1px solid white;
+}
+.start__btn:hover {
+  background: #fff;
+  color: #585656;
+}
+.game__info {
+  margin-top: 25px;
+  font-size: 36px;
+  color: white;
+}
