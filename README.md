@@ -1,3 +1,4 @@
 # Tic-tac-toe game
-Node/React  
+Home assignment for company (React, Node.js, Socket.io, SCSS) 
+
  http://tictactoe.arseniypolyak.com/
